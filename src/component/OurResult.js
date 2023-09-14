@@ -54,7 +54,7 @@ const OurResult = () => {
                 <img src={require('./images/achive-3 .png')} className="d-block w-100" alt="achive"/>
                 </div>
             </div>
-            </div>
+            </div> 
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"><FontAwesomeIcon className='prev-icon' icon={faCircleArrowLeft} /></span><span className="visually-hidden">Previous</span>
