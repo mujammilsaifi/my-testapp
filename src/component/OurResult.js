@@ -18,7 +18,7 @@ const OurResult = () => {
                     <strong>Becoming a Digital Partner through Consulting for Critical Care </strong>
                     The Digital Marketing Evolution with Manglam Radiance, a Luxury Real Estate Marvel in Jaipur. Discover how we've redefined luxury living through strategic digital marketing innovation
                     </p>
-                    <a href="#" className='btn-view-story'>VIEW CASE STUDY</a>
+                    <a href="/" className='btn-view-story'>VIEW CASE STUDY</a>
                 </div>
                 <div className="img-result">
                 <img src={require('./images/achive-1 .png')} className="d-block w-100" alt="..."/>
@@ -33,7 +33,7 @@ const OurResult = () => {
                     <strong>Expert Marketing and Consulting with Digital Whooper </strong>
                     Revolutionizing Customer Experiences and Cost Efficiency: A Multidisciplinary Approach through Internet Marketing and Digital Transformation.
                     </p>
-                    <a href="#" className='btn-view-story'>VIEW CASE STUDY</a>
+                    <a href="/" className='btn-view-story'>VIEW CASE STUDY</a>
                 </div>
                 <div className="img-result">
                 <img src={require('./images/achive-2.png')} className="d-block w-100" alt="..."/>
@@ -48,10 +48,10 @@ const OurResult = () => {
                     <strong>Elevating Luxury Real Estate Projects with Expert Marketing and Business Development Consulting </strong>
                     Redefining Luxury Real Estate in India: Elevating Customer Experience through Digital Marketing and Evolution.
                     </p>
-                    <a href="#" className='btn-view-story'>VIEW CASE STUDY</a>
+                    <a href="/" className='btn-view-story'>VIEW CASE STUDY</a>
                 </div>
                 <div className="img-result">
-                <img src={require('./images/achive-3 .png')} className="d-block w-100" alt="..."/>
+                <img src={require('./images/achive-3 .png')} className="d-block w-100" alt="achive"/>
                 </div>
             </div>
             </div>

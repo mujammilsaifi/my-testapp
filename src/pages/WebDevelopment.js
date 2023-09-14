@@ -16,7 +16,7 @@ const WebDevelopment = () => {
                 <a href="/contact" className='btn'>GET DIGITALLY TRANSFORM!</a>
             </div>
             <div className="div-sec-2">
-            <img src={require('../component/images/web-img.jpg')} alt="image" />
+            <img src={require('../component/images/web-img.jpg')} alt="website" />
             </div>
         </div>
         <div className="technology">
@@ -33,8 +33,8 @@ const WebDevelopment = () => {
                     <p>WordPress, a free and open-source platform, is the foundation of our website creation services. Our skilled web developers possess extensive expertise in WordPress, crafting distinct websites that prioritize control, security, and exceptional performance. We provide scalable, aesthetically pleasing WordPress solutions that enhance your business's reputation at an affordable cost. Our WordPress website development services are characterized by quality and swift delivery.</p>
                     <div className="work">
                         <h4>Our Work</h4>
-                        <a href="https://medastudio.com/" target="_blank">www.medastudio.com</a> <br />
-                        <a href="https://mariaross.in/" target="_blank">www.mariaross.in</a>
+                        <a href="https://medastudio.com/" rel="noreferrer" target="_blank">www.medastudio.com</a> <br />
+                        <a href="https://mariaross.in/" rel="noreferrer" target="_blank">www.mariaross.in</a>
                     </div>
                 </div>
             </div>

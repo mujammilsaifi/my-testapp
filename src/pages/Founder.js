@@ -7,7 +7,7 @@ const Founder = () => {
         <h2>Global leaders for next generation of digital services</h2>
         <div className='founder-1'>
             <div className='founder-div-img'>
-                <img src={require('../component/images/founder-1.jpeg')} alt="image" />
+                <img src={require('../component/images/founder-1.jpeg')} alt="founder 1" />
                
             </div>
             <div className='founder-div-text'>
@@ -24,7 +24,7 @@ const Founder = () => {
         </div>
         <div className='founder-1 founder2-show'>
             <div className='founder-div-img'>
-                <img src={require('../component/images/founder-1.jpeg')} alt="image" />
+                <img src={require('../component/images/founder-1.jpeg')} alt="founder2" />
                
             </div>
             <div className='founder-div-text'>
@@ -42,13 +42,13 @@ const Founder = () => {
                 <h4>M. D. & Agile Coach | India</h4>
             </div>
             <div className='founder-div-img'>
-                <img src={require('../component/images/founder-1.jpeg')} alt="image" />
+                <img src={require('../component/images/founder-1.jpeg')} alt="founder-3" />
                
             </div>
         </div>
         <div className='founder-1'>
             <div className='founder-div-img'>
-                <img src={require('../component/images/founder-1.jpeg')} alt="image" />
+                <img src={require('../component/images/founder-1.jpeg')} alt="founder-4" />
                
             </div>
             <div className='founder-div-text'>

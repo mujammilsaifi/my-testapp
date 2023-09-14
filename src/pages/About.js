@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="about-section-2">
         <div className="about-div1">
-        <img src={require('../component/images/about-img.jpg')} alt="image" />
+        <img src={require('../component/images/about-img.jpg')} alt="about" />
             <div className="award">
               <h2>Our Award-Winning Company</h2>
               <p>Flexible Delivery Aligned to Your Workflow, Inside or Out</p>
