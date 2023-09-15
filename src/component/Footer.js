@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style/footer.css";
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
@@ -10,18 +11,18 @@ const Footer = () => {
                 <h3>Unlock Your Online Potential with Digital Whopper : Your Path to Digital Success!</h3>
                 <div className="address">
                     <p>Address: D5, Bharu Marg, Ashok Vihar, Nandpuri Colony, Malviya Nagar, Jaipur, Rajasthan 302017 <br />
-                    Email:  digitalwhopperhelp@gmail.com <br />
+                    Email:  digitalwhopperhelp@gmail.com <br/>
                     CALL: +91 6200379161</p>
                 </div>
         </div>
         <div className="div-2">
             <h2> <strong>DIGITAL MARKETING</strong></h2>
             <ul>
-                <li><a href="/">Digital Marketing</a></li>
-                <li><a href="/social-media-marketing">Social Media Marketing</a></li>
-                <li><a href="/seo">SEO</a></li>
-                <li><a href="/ppc-marketing">PPC Marketing</a></li>
-                <li><a href="/e-commerce-marketing">E-Commerce Marketing</a></li>
+                <li><Link to="/">Digital Marketing</Link></li>
+                <li><Link to="/social-media-marketing">Social Media Marketing</Link></li>
+                <li><Link to="/seo">SEO</Link></li>
+                <li><Link to="/ppc-marketing">PPC Marketing</Link></li>
+                <li><Link to="/e-commerce-marketing">E-Commerce Marketing</Link></li>
             </ul>
         </div>
         <div className="div-2">

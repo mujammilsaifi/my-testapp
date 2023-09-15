@@ -22,9 +22,8 @@ import Founder from "./pages/Founder";
 function App() {
   return (
     <div className="App">
-      
+    <BrowserRouter>  
     <Base>
-      <BrowserRouter>
       <Routes>
         <Route path="/"  element={<Home/>}/>
         <Route path="about"  element={<About/>}/> 
@@ -44,8 +43,8 @@ function App() {
         <Route path="company-policy"  element={<CompanyPolicy/>}/>
         <Route path="our-founder"  element={<Founder/>}/>
       </Routes>
-    </BrowserRouter>
     </Base>
+    </BrowserRouter>
     </div>
   );
 }
