@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/navbar.css";
+import { Link } from 'react-router-dom'
 function Navar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,39 +24,39 @@ function Navar() {
                 <div className="dropdown">
                     <button className="dropbtn">DIGITAL MARKETING <span>+</span></button>
                     <div className="dropdown-content">
-                        <a href="/">DIGITAL MARKETING</a>
-                        <a href="/seo">SEO</a>
-                        <a href="/ppc-marketing">PPC MARKETING</a>
-                        <a href="/social-media-marketing">SOCIAL MEDIA MARKETING</a>
-                        <a href="/e-commerce-marketing">E-COMMERCE MARKETING</a>
+                        <Link to="/">DIGITAL MARKETING</Link>
+                        <Link to="/seo">SEO</Link>
+                        <Link to="/ppc-marketing">PPC MARKETING</Link>
+                        <Link to="/social-media-marketing">SOCIAL MEDIA MARKETING</Link>
+                        <Link to="/e-commerce-marketing">E-COMMERCE MARKETING</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <button className="dropbtn">TECHNOLOGY SERVICES <span>+</span></button>
                     <div className="dropdown-content">
-                        <a href="/web-development">WEB DEVELOPMENT</a>
-                        <a href="/software-developemnt">SOFTWARE DEVELOPMENT</a>
-                        <a href="/mobile-app-development">MOBILE APP DEVELOPMENT</a>
-                        <a href="/product-development">PRODUCT DEVELOPMENT</a>
+                        <Link to="/web-development">WEB DEVELOPMENT</Link>
+                        <Link to="/software-developemnt">SOFTWARE DEVELOPMENT</Link>
+                        <Link to="/mobile-app-development">MOBILE APP DEVELOPMENT</Link>
+                        <Link to="/product-development">PRODUCT DEVELOPMENT</Link>
                     </div>
                 </div>
             <li className="nav-item s-link">
-              <a className="dropbtn " aria-current="page" href="/portfolio">
+              <Link className="dropbtn " aria-current="page" to="/portfolio">
                 PORTFOLIO
-              </a>
+              </Link>
             </li>
             <div className="dropdown">
                     <button className="dropbtn">ABOUT US <span>+</span></button>
                     <div className="dropdown-content">
-                        <a href="/about">ABOUT US</a>
-                        <a href="/our-founder">OUR FOUNDER</a>
+                        <Link to="/about">ABOUT US</Link>
+                        <Link to="/our-founder">OUR FOUNDER</Link>
                     </div>
             </div>
 
             <li className="nav-item s-link">
-              <a className="dropbtn " aria-current="page" href="/contact">
+              <Link className="dropbtn " aria-current="page" to="/contact">
                 CONTACT US
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="contact">

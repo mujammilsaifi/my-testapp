@@ -28,21 +28,21 @@ const Footer = () => {
         <div className="div-2">
             <h2> <strong>TECHNOLOGY SERVICES</strong></h2>
             <ul>
-                <li><a href="/web-development">Web Development</a></li>
-                <li><a href="/software-development">Software Development</a></li>
-                <li><a href="/mobile-app-development">Mobile App Development</a></li>
-                <li><a href="/product-development">Product Development</a></li>
+                <li><Link to="/web-development">Web Development</Link></li>
+                <li><Link to="/software-development">Software Development</Link></li>
+                <li><Link to="/mobile-app-development">Mobile App Development</Link></li>
+                <li><Link to="/product-development">Product Development</Link></li>
             </ul>
         </div>
         <div className="div-2">
             <h2> <strong>QUICK LINKS </strong></h2>
             <ul>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/contact">Contact Us</a></li>
-                <li><a href="/career">Careers</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
-                <li><a href="/company-policy">COMPANY POLICY</a></li>
+                <li><Link to="/about">About Us</Link></li>
+                <li><Link to="/contact">Contact Us</Link></li>
+                <li><Link to="/career">Careers</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/privacy-policy">PRIVACY POLICY</Link></li>
+                <li><Link to="/company-policy">COMPANY POLICY</Link></li>
             </ul>
         </div>
         <div className="div-3">
